@@ -1,0 +1,9 @@
+<?php
+	if($_POST[sub1]){
+		for($a=0;$a<1000;$a++){
+			if($a>=$_POST[text]){
+				break;
+	}else{"已经输出".($a+1)."次循环<br>";}
+	}
+	}
+?>
